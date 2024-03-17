@@ -1,0 +1,480 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header
+{
+    background-color: #85A9C9;
+    
+}
+
+
+.container {
+
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.logo
+{
+    width: 160px;
+}
+
+.main-picture
+{
+    float: inline-end;
+    margin-top: 40px;
+}
+
+.top-navigation {
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.navigation-list
+{
+    list-style-type: none;
+    margin: 0 0 0 64px;
+}
+
+.navobj {
+    float: left;
+    margin: 0 20px 0 0;
+    display: inline;   
+    margin-right: 40px;
+}
+
+.navlink {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;  
+}
+.navlink:hover {
+    color: #333652;
+    font-weight: 700;
+   
+}
+.navlink:hover:not(.active){
+    font-weight: 700;
+}
+.navlink:active{
+    font-weight: 700;
+    color: #333652;
+}
+.main-section
+{
+    background-color: #fff;
+    height: 634px;
+}
+
+.container-main-section {
+    display:flex;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.organization
+{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 22px ;
+    color: #333652;
+    margin-top: 90px;
+}
+
+.advertisement-phrase
+{
+    font-family: Montserrat;
+    font-weight: 700;
+    color: #333652;
+    margin-top: 40px;
+    font-size: 52px ;
+    
+}
+
+.usual-text-of-main-section
+{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 26px ;
+    color: #333652;
+    margin-top: 40px;
+    width: 600px;
+}
+
+.consultation-button
+{
+    background-color: #333652;
+    color: #fff;
+    font-size: 26px ;
+    font-family: Montserrat;
+    
+    border-color: transparent;
+    margin-top: 40px;
+    width: 300px;
+    height: 64px;
+    border-radius: 14px;
+}
+
+.consultation-button:hover
+{
+    color: #333652;
+    background-color: transparent;
+    border-color: #333652;
+    border-style: solid;
+    border-width: 4px;
+
+}
+
+.about-us-section
+{
+    background-color: #85A9C9;
+    height: 560px;
+
+}
+
+.our-cons
+{
+    background-color: #fff;
+    height: 634px;
+}
+
+.section-title
+{
+    font-size: 36px ;
+    font-family: Montserrat;
+    font-weight: 400;
+    color: #333652;
+    padding-top: 40px;
+}
+
+.usual-text
+{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 24px ;
+    color: #333652;
+    margin-top: 26px;
+}
+
+.map-image-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map-image
+{
+    margin-top: 20px;
+    width: 360px;
+}
+
+.container-of-stickers
+{
+    margin-top: -20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: transparent;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.our-cons
+{
+    background-color: transparent;
+    display: flex;
+    gap: 80px;  
+}
+
+.text-ex-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/whiteSticker.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    width: 380px;
+    height: 440px; 
+}
+
+.sticker-text
+{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 24px ;
+    color: #333652;
+    width: 260px;
+    text-align: center;
+}
+
+.container-courses
+{
+    margin-top: -180px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.boxes-general{
+    width: 400px;
+    height: 580px;
+    flex-shrink: 0;
+    background-color: transparent;
+    border-color: #333652;
+    border-style: solid;
+    border-radius: 18px; 
+    padding-top: 30px ;
+    display: inline;
+
+}
+
+.tittle-box {
+    color: #333652;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+}
+.level-text-1
+{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 32px ;
+    color: #46A126;
+    text-align: center;
+}
+.level-text-2
+{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 32px ;
+    color: #E29A2E;
+    text-align: center;
+}
+.level-text-3
+{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 32px ;
+    color: #C8102E;
+    text-align: center;
+}
+.group-of-boxes {
+    display: flex;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    gap: 60px;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.flag-image
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.text-about-course
+{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 24px ;
+    color: #333652;
+    margin-left: 40px;
+    margin-top: 12px;
+}
+
+.price-of-course
+{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 24px ;
+    color: #C8102E;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.sign-button
+{
+    background-color: #608CB2;
+    color: #fff;
+    font-size: 26px ;
+    font-family: Montserrat;
+    
+    border-color: transparent;
+    margin-top: 40px;
+    width: 300px;
+    height: 64px;
+    border-radius: 14px;
+}
+
+.sign-button:hover
+{
+    color: #608CB2;
+    background-color: transparent;
+    border-color: #608CB2;
+    border-style: solid;
+    border-width: 4px;
+
+}
+
+.button-container
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.teachers-section
+{
+    background-color: #85A9C9;
+    height: 480px;
+}
+
+.text-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/whiteSticker.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    width: 380px;
+    height: 440px; 
+    margin-top: -20px;
+}
+
+.stickers-items
+{
+    width: 300px;
+}
+
+.sticker-teachers-text
+{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 24px ;
+    color: #333652;
+    width: 260px;
+}
+
+.photo-name-teacher
+{
+    display: inline-flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.teacher-name
+{
+    width: 200px;
+    margin-left: 24px;
+}
+
+.comment-container
+{
+    background-color: #85A9C9;
+    margin-top: 40px;
+    border: #85A9C9;
+    border-style: solid;
+    border-radius: 24px 24px 24px 8px; 
+    width: 60%;
+    padding: 14px;
+    
+}
+
+.comment-text
+{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 24px ;
+    color: #333652;
+}
+
+.name-input
+{
+    width: 100%;
+    color: #333652;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 24px;
+    background-color: #E8E9EB;
+    border-color: transparent;
+    padding: 14px;
+    border-radius: 16px; 
+    margin-top: 40px;
+}
+
+.comment-input
+{
+    width: 100%;
+    color: #333652;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 24px;
+    background-color: #E8E9EB;
+    border-color: transparent;
+    padding: 14px;
+    border-radius: 16px;
+    margin-top: 30px;
+    height: 120px;
+    text-align: left;
+    vertical-align: top; 
+    overflow-wrap: break-word;
+    
+}
+
+textarea 
+{
+    resize: none;
+}
+
+.send-button
+{
+    float: inline-end;
+}
+
+.contacts-information
+{
+    background-color: #85A9C9;
+    height: 300px;
+    margin-top: 160px;
+    padding-top: 40px;
+}
+
+.contacts-text
+{
+    font-family: Roboto;
+    font-weight: 400;
+    color: #333652;
+    margin-top: 10px;
+    font-size: 30px ;
+}
+
+input:focus
+{
+    background-color: transparent;
+    border-color: #333652;
+}
+
+textarea:focus
+{
+    background-color: transparent;
+    border-color: #333652;
+}
